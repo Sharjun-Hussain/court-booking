@@ -244,7 +244,7 @@
                 <a href="index.html"><img src="#" alt="logo"></a>
               </div>
             </div>
-            <div class="col text-end text-xl-center">
+            <div class="col !align-items-center !align-items-lg-none  text-end text-xl-center">
               <nav class="main-menu  menu-style1 d-none d-lg-block">
                 <ul>
                   <li><a href="index.html">Home</a></li>
@@ -254,9 +254,19 @@
                   <li>
                     <a href="contact.html">Contact</a>
                   </li>
+                  <div class="header-btns d-lg-inline-block d-none  d-xl-none">
+                    <button class="sideCartToggler  "><i class="fal fa-shopping-bag"></i><span
+                        class="button-badge">2</span></button>
+                  </div>
                 </ul>
               </nav>
-              <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
+
+              <div class="header-btns d-inline-block d-lg-none">
+                <button class="sideCartToggler   " onclick="location.href='cart.html'"><i
+                    class="fal fa-shopping-bag"></i><span class="button-badge">2</span></button></a>
+              </div>
+
+              <button class="vs-menu-toggle d-inline-block mt-0 d-lg-none"><i class="fal fa-bars"></i></button>
             </div>
             <div class="col-auto d-none d-xl-block">
               <div class="header-btns">
@@ -422,7 +432,7 @@
     </div>
     <div class="widget-area">
       <div class="container">
-        <div class="row g-5 justify-content-between">
+        <div class="row  justify-content-between">
           <div class="col-md-6 col-xl-3">
             <div class="widget footer-widget">
               <div class="vs-widget-about">
@@ -440,7 +450,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xl-2">
+          <div class="col-md-6 mt-4 md-mt-0 col-xl-2">
             <div class="widget widget_nav_menu footer-widget">
               <h3 class="widget_title">Useful Links</h3>
               <div class="menu-all-pages-container">
@@ -454,7 +464,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xl-3">
+          <div class="col-md-6 mt-4 md-mt-0 col-xl-3">
             <div class="widget footer-widget">
               <h4 class="widget_title">Our Instagram</h4>
               <div class="sidebar-gallery">
@@ -479,7 +489,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xl-3">
+          <div class="col-md-6 mt-4 md-mt-0 col-xl-3">
             <div class="widget footer-widget">
               <h4 class="widget_title">Subscribe</h4>
               <form class="newsletter-form">
